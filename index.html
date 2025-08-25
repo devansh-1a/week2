@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors Demo - Devansh Kumar Dhangar</title>
+    <!-- External CSS Link -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="assignment-header">
+                <h1>Week 2: CSS Selectors, Styling, and Lists</h1>
+            </div>
+            <div class="student-info">
+                Name: Devansh Kumar Dhangar | Class Roll No: 10 | Section: CD | University Roll No: 2315510064
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Student Profile Section -->
+        <section id="devansh-profile">
+            <h2 class="section-title">Student Assignment</h2>
+            <p><strong>Objective:</strong> Apply styling using CSS selectors, color formats, and lists</p>
+            <p><strong>Scenario:</strong> Apply a company style guide to a webpage</p>
+            <div class="highlight-box">
+                <h3>Assignment Tasks Completed:</h3>
+                <ul style="list-style-type: none; padding: 0;">
+                    <li>✅ Element, class, ID, attribute, pseudo-class, and pseudo-element selectors applied</li>
+                    <li>✅ HEX, RGB, RGBA, and HSL color formats used</li>
+                    <li>✅ Unordered list of movies with favorite styling</li>
+                    <li>✅ Ordered list of cities with custom random CSS</li>
+                    <li>✅ External CSS implementation</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Task 3: About Us Section with Various Selectors -->
+        <section id="company-mission">
+            <h2 class="section-title">About TechCorp Solutions</h2>
+            <p>At TechCorp Solutions, we are committed to delivering cutting-edge technology solutions that transform businesses and improve lives. Our dedicated team of experts works tirelessly to create innovative products that meet the evolving needs of our clients worldwide. This project demonstrates comprehensive CSS selector implementation by Devansh Kumar Dhangar.</p>
+        </section>
+
+        <section>
+            <div class="highlight-box">
+                <h3>Founded in 2010</h3>
+                <p>We started as a small startup with big dreams and have grown into a leading technology company serving clients worldwide with innovative solutions. This section demonstrates class selectors and hover effects.</p>
+            </div>
+
+            <div class="highlight-box">
+                <h3>Global Presence</h3>
+                <p>With offices in 15 countries and a remote workforce spanning 6 continents, we bring diverse perspectives to every project we undertake. Notice the gradient backgrounds and transition effects.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">Our Development Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face" alt="team member">
+                    <h3>Devansh Kumar Dhangar</h3>
+                    <p><strong>Student Developer</strong></p>
+                    <p>Contact: <a href="mailto:devansh@student.com">devansh@student.com</a></p>
+                    <p><small>Class Roll: 10 | Section: CD</small></p>
+                </div>
+                <div class="team-member">
+                    <img src="https://images.unsplash.com/photo-1494790108755-2616b2c0d3e8?w=150&h=150&fit=crop&crop=face" alt="team member">
+                    <h3>Sarah Johnson</h3>
+                    <p><strong>Senior Developer</strong></p>
+                    <p>Contact: <a href="mailto:sarah@techcorp.com">sarah@techcorp.com</a></p>
+                </div>
+                <div class="team-member">
+                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face" alt="team member">
+                    <h3>Mike Davis</h3>
+                    <p><strong>Lead Developer</strong></p>
+                    <p>Contact: <a href="mailto:mike@techcorp.com">mike@techcorp.com</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="ceo-message">
+            <p>"This assignment demonstrates the practical application of CSS selectors, color formats, and styling techniques. The implementation showcases both technical skills and creative design thinking."</p>
+            <p><strong>- Assignment by Devansh Kumar Dhangar</strong></p>
+        </section>
+
+        <!-- Task 4: Movie List Section -->
+        <section class="movie-container">
+            <h2 class="section-title">Devansh's Favorite Movies</h2>
+            <p><em>Unordered list with special favorite movie styling</em></p>
+            <ul class="movie-list">
+                <li>
+                    <div class="movie-title">The Shawshank Redemption</div>
+                    <div class="movie-year">(1994) - Drama | A story of hope and friendship</div>
+                </li>
+                <li>
+                    <div class="movie-title">The Social Network</div>
+                    <div class="movie-year">(2010) - Biography | The Facebook origin story</div>
+                </li>
+                <li class="favorite">
+                    <div class="movie-title">Inception</div>
+                    <div class="movie-year">(2010) - Sci-Fi Thriller | Mind-bending masterpiece</div>
+                </li>
+                <li>
+                    <div class="movie-title">The Matrix</div>
+                    <div class="movie-year">(1999) - Sci-Fi | Reality-questioning classic</div>
+                </li>
+                <li>
+                    <div class="movie-title">Interstellar</div>
+                    <div class="movie-year">(2014) - Sci-Fi Drama | Space exploration epic</div>
+                </li>
+                <li>
+                    <div class="movie-title">The Dark Knight</div>
+                    <div class="movie-year">(2008) - Action | Superhero movie redefined</div>
+                </li>
+                <li>
+                    <div class="movie-title">Avengers: Endgame</div>
+                    <div class="movie-year">(2019) - Action | Marvel's culmination</div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Task 5: Cities List Section -->
+        <section class="cities-container">
+            <h2 class="section-title">Dream Travel Destinations</h2>
+            <p><em>Ordered list with custom counter styling and random color schemes</em></p>
+            <ol class="cities-list">
+                <li>
+                    <div class="city-name">Tokyo</div>
+                    <div class="city-info">Japan - Technology hub with rich culture and innovation</div>
+                </li>
+                <li>
+                    <div class="city-name">San Francisco</div>
+                    <div class="city-info">USA - Silicon Valley tech capital and startup ecosystem</div>
+                </li>
+                <li>
+                    <div class="city-name">London</div>
+                    <div class="city-info">United Kingdom - Historic city with modern tech scene</div>
+                </li>
+                <li>
+                    <div class="city-name">Bangalore</div>
+                    <div class="city-info">India - Silicon Valley of India, IT capital</div>
+                </li>
+                <li>
+                    <div class="city-name">Berlin</div>
+                    <div class="city-info">Germany - Startup hub with rich history and culture</div>
+                </li>
+                <li>
+                    <div class="city-name">Singapore</div>
+                    <div class="city-info">Singapore - Smart city showcasing future technology</div>
+                </li>
+                <li>
+                    <div class="city-name">Seoul</div>
+                    <div class="city-info">South Korea - Gaming and technology innovation center</div>
+                </li>
+                <li>
+                    <div class="city-name">Amsterdam</div>
+                    <div class="city-info">Netherlands - Tech startup ecosystem with great quality of life</div>
+                </li>
+            </ol>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section id="newsletter-form">
+            <h2 class="section-title">Assignment Submission</h2>
+            <p>This project demonstrates mastery of CSS selectors, color formats, and list styling</p>
+            <p><strong>Submitted by:</strong> Devansh Kumar Dhangar</p>
+            <p><strong>University Roll No:</strong> 2315510064</p>
+            <input type="email" placeholder="Enter email for project updates">
+        </section>
+    </main>
+</body>
+</html>
